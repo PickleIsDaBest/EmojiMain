@@ -53,7 +53,7 @@ function swagnames()
 			table.find(FuckingIdiot, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Idiot ->] .. Player.DisplayName')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Idiot ->]' .. Player.DisplayName')
 				end
 			end
 		if
